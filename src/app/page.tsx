@@ -1,13 +1,20 @@
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-orange-50 via-amber-50 via-stone-50 to-stone-100 dark:from-orange-950 dark:via-amber-950 dark:via-stone-950 dark:to-stone-900">
-      <div className="max-w-5xl mx-auto px-12 py-24">
+    <div className="min-h-screen bg-gradient-to-br from-orange-50 via-amber-50 via-yellow-50 via-stone-50 to-stone-100 dark:from-orange-950 dark:via-amber-950 dark:via-yellow-950 dark:via-stone-950 dark:to-stone-900 relative overflow-hidden">
+      {/* Subtle sunrise rays effect */}
+      <div className="absolute inset-0 opacity-20 dark:opacity-10">
+        <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-96 h-96 bg-gradient-radial from-orange-200 via-amber-100 to-transparent rounded-full blur-3xl"></div>
+        <div className="absolute top-20 left-1/3 w-64 h-64 bg-gradient-radial from-yellow-200 via-amber-100 to-transparent rounded-full blur-2xl"></div>
+        <div className="absolute top-10 right-1/3 w-48 h-48 bg-gradient-radial from-orange-200 via-yellow-100 to-transparent rounded-full blur-2xl"></div>
+      </div>
+      
+      <div className="max-w-5xl mx-auto px-12 py-24 relative z-10">
         {/* Hero Section */}
         <header className="text-center mb-32">
           <h1 className="text-6xl md:text-8xl font-bold text-stone-900 dark:text-stone-100 mb-12 tracking-wide leading-tight">
             Sunrise Investments
           </h1>
-          <div className="w-32 h-0.5 bg-amber-600 mx-auto mb-16"></div>
+          <div className="w-32 h-0.5 bg-gradient-to-r from-orange-400 via-amber-500 to-yellow-400 mx-auto mb-16"></div>
           <p className="text-3xl md:text-4xl text-stone-700 dark:text-stone-300 font-medium leading-relaxed tracking-wide">
             Rising with the Sun, Growing with Every Dawn
           </p>
@@ -23,24 +30,28 @@ export default function Home() {
         </section>
 
         {/* About Us Section */}
-        <section className="mb-32">
-          <div className="text-center mb-20">
+        <section className="mb-32 text-center">
+          <div className="mb-20">
             <h2 className="text-4xl md:text-5xl font-bold text-stone-900 dark:text-stone-100 mb-8 tracking-widest">
               ABOUT US
             </h2>
-            <div className="w-24 h-0.5 bg-amber-600 mx-auto mb-12"></div>
-            <h3 className="text-3xl md:text-4xl font-semibold text-amber-700 dark:text-amber-500 tracking-wide">
+            <div className="w-24 h-0.5 bg-gradient-to-r from-orange-400 via-amber-500 to-yellow-400 mx-auto mb-12"></div>
+            <h3 className="text-3xl md:text-4xl font-semibold bg-gradient-to-r from-orange-600 via-amber-600 to-yellow-600 bg-clip-text text-transparent tracking-wide">
               A Legacy of Wealth Creators
             </h3>
           </div>
 
           <div className="max-w-4xl mx-auto space-y-12">
-            <p className="text-xl md:text-2xl text-stone-600 dark:text-stone-400 leading-loose font-light tracking-wide text-center">
-              Founded in 2022 by Munna Lal Jain along with his son Aditya Jain & family, Sunrise Investments emerged from a shared vision to harness the potential of diverse investment avenues in India. With a firm belief in the power of strategic wealth creation.
-            </p>
-            <p className="text-xl md:text-2xl text-stone-600 dark:text-stone-400 leading-loose font-light tracking-wide text-center">
-              From our humble beginnings, we have steadily grown, guided by principles of prudent financial management. Today, Sunrise Investments stands as a testament to our pursuit of prosperity, marked by a legacy of trust and forward-thinking strategies.
-            </p>
+            <div className="text-center">
+              <p className="text-xl md:text-2xl text-stone-600 dark:text-stone-400 leading-loose font-light tracking-wide mx-auto">
+                Founded in 2022 by Munna Lal Jain along with his son Aditya Jain & family, Sunrise Investments emerged from a shared vision to harness the potential of diverse investment avenues in India. With a firm belief in the power of strategic wealth creation.
+              </p>
+            </div>
+            <div className="text-center">
+              <p className="text-xl md:text-2xl text-stone-600 dark:text-stone-400 leading-loose font-light tracking-wide mx-auto">
+                From our humble beginnings, we have steadily grown, guided by principles of prudent financial management. Today, Sunrise Investments stands as a testament to our pursuit of prosperity, marked by a legacy of trust and forward-thinking strategies.
+              </p>
+            </div>
           </div>
         </section>
 
@@ -50,7 +61,7 @@ export default function Home() {
             <h4 className="text-2xl md:text-3xl font-semibold text-stone-900 dark:text-stone-100 mb-12 tracking-wide">
               Office
             </h4>
-            <div className="w-16 h-0.5 bg-amber-600 mx-auto mb-12"></div>
+            <div className="w-16 h-0.5 bg-gradient-to-r from-orange-400 via-amber-500 to-yellow-400 mx-auto mb-12"></div>
             <div className="text-xl md:text-2xl text-stone-600 dark:text-stone-400 leading-loose font-light tracking-wide space-y-3">
               <div>AddRec Solutions Private Limited</div>
               <div>10, B Block, Second Floor</div>
