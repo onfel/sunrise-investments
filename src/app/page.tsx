@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-stone-50 to-stone-100 dark:from-stone-950 dark:to-stone-900">
+    <div className="min-h-screen bg-gradient-to-br from-orange-50 via-amber-50 via-stone-50 to-stone-100 dark:from-orange-950 dark:via-amber-950 dark:via-stone-950 dark:to-stone-900">
       <div className="max-w-5xl mx-auto px-12 py-24">
         {/* Hero Section */}
         <header className="text-center mb-32">
@@ -34,11 +34,11 @@ export default function Home() {
             </h3>
           </div>
 
-          <div className="max-w-4xl mx-auto space-y-12 text-center">
-            <p className="text-xl md:text-2xl text-stone-600 dark:text-stone-400 leading-loose font-light tracking-wide">
+          <div className="max-w-4xl mx-auto space-y-12">
+            <p className="text-xl md:text-2xl text-stone-600 dark:text-stone-400 leading-loose font-light tracking-wide text-center">
               Founded in 2022 by Munna Lal Jain along with his son Aditya Jain & family, Sunrise Investments emerged from a shared vision to harness the potential of diverse investment avenues in India. With a firm belief in the power of strategic wealth creation.
             </p>
-            <p className="text-xl md:text-2xl text-stone-600 dark:text-stone-400 leading-loose font-light tracking-wide">
+            <p className="text-xl md:text-2xl text-stone-600 dark:text-stone-400 leading-loose font-light tracking-wide text-center">
               From our humble beginnings, we have steadily grown, guided by principles of prudent financial management. Today, Sunrise Investments stands as a testament to our pursuit of prosperity, marked by a legacy of trust and forward-thinking strategies.
             </p>
           </div>
