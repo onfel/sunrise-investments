@@ -23,10 +23,10 @@ export default function Home() {
         </header>
 
         {/* Introduction with Icon */}
-        <section className="mb-24">
+        <section className="mb-40">
           <div className="max-w-4xl mx-auto text-center">
             <div className="text-3xl text-amber-600 mb-8">🌅</div>
-            <p className="text-lg md:text-xl text-stone-600 dark:text-stone-400 leading-relaxed font-light">
+            <p className="text-lg md:text-xl text-stone-500 dark:text-stone-300 leading-relaxed font-light">
               Welcome to Sunrise Investments, where we stand as a beacon of financial stewardship and strategic investment planning. With a legacy rooted in cultivating prosperity, we embrace each dawn with unwavering dedication.
             </p>
           </div>
@@ -58,16 +58,16 @@ export default function Home() {
               <div className="text-center">
                 <div className="text-4xl text-amber-600 mb-6">🌄</div>
                 <h4 className="text-xl font-semibold text-stone-900 dark:text-stone-100 mb-4">Founded in Excellence</h4>
-                <p className="text-stone-600 dark:text-stone-400 leading-relaxed">
-                  Founded in 2022 by Munna Lal Jain along with his son Aditya Jain & family, Sunrise Investments emerged from a shared vision to harness the potential of diverse investment avenues in India. With a firm belief in the power of strategic wealth creation.
-                </p>
-              </div>
-              <div className="text-center">
-                <div className="text-4xl text-amber-600 mb-6">🏛️</div>
-                <h4 className="text-xl font-semibold text-stone-900 dark:text-stone-100 mb-4">Legacy of Trust</h4>
-                <p className="text-stone-600 dark:text-stone-400 leading-relaxed">
-                  From our humble beginnings, we have steadily grown, guided by principles of prudent financial management. Today, Sunrise Investments stands as a testament to our pursuit of prosperity, marked by a legacy of trust and forward-thinking strategies.
-                </p>
+                                 <p className="text-stone-500 dark:text-stone-300 leading-relaxed">
+                   Founded in 2022 by Munna Lal Jain along with his son Aditya Jain & family, Sunrise Investments emerged from a shared vision to harness the potential of diverse investment avenues in India. With a firm belief in the power of strategic wealth creation.
+                 </p>
+               </div>
+               <div className="text-center">
+                 <div className="text-4xl text-amber-600 mb-6">🏛️</div>
+                 <h4 className="text-xl font-semibold text-stone-900 dark:text-stone-100 mb-4">Legacy of Trust</h4>
+                 <p className="text-stone-500 dark:text-stone-300 leading-relaxed">
+                   From our humble beginnings, we have steadily grown, guided by principles of prudent financial management. Today, Sunrise Investments stands as a testament to our pursuit of prosperity, marked by a legacy of trust and forward-thinking strategies.
+                 </p>
               </div>
             </div>
           </div>
@@ -86,7 +86,7 @@ export default function Home() {
                 <div className="mx-3 text-amber-600">◦</div>
                 <div className="w-8 h-px bg-amber-600"></div>
               </div>
-              <div className="text-stone-600 dark:text-stone-400 leading-relaxed space-y-2">
+                             <div className="text-stone-500 dark:text-stone-300 leading-relaxed space-y-2">
                 <div>AddRec Solutions Private Limited</div>
                 <div>10, B Block, Second Floor</div>
                 <div>The Acropolis, Thaltej</div>
